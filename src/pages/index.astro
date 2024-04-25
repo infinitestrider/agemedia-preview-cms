@@ -1,0 +1,33 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Welcome!</h1>
+			<p>
+				Welcome to the <a href="https://ageplay.site/">ageplay.site</a> Preview Library
+			</p>
+			<p>
+				You can go to the <a href="/blog">Content</a> section to browse what we have in our Library
+				Side Note: Every single video here was made by persons over the age of 18+, content like this was made in a safe environment and only made for the sake of fetish exploration within a legal spectrum.
+			</p>
+			<p>
+				Our main social medias are <a href="https://twitter.com/AgeplayVideos"
+					>Twitter
+				</a> and <a href="https://t.me/AgeplayClips">join us on Telegram</a> to ask questions.
+			</p>
+			
+		</main>
+		<Footer />
+	</body>
+</html>
